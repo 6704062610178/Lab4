@@ -20,7 +20,7 @@ int main(){
 		}
 		else{
 			if(score >=55){
-				printf("&d(D)\n",score);
+				printf("%d(D)\n",score);
 			}
 			else if(score<55){
 				printf("%d(F)\n",score);
