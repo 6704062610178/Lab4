@@ -1,13 +1,10 @@
 #include<stdio.h>
 int main(){
 	int score,a,o,i;
-	o = 1;
-	while(o = 1){
+	scanf("%d",&o);
+	for(int i =0;i<o;i++){
 		scanf("%d",&score);
-		if( score == -1){
-			break;
-		}
-		else if(score >= 68){
+		if(score >= 68){
 			if(score >=85){
 				printf("%d(A)\n",score);
 			}
@@ -30,3 +27,4 @@ int main(){
 	}
 	
 }
+
